@@ -1,7 +1,7 @@
 # Maps and Sets Exercise
 ```js
 // 1. Quick Questions #1. What does the following code return?
-// new Set([1, 1, 2, 2, 3, 4]); // returns Set(0) { 1,2,3,4 }
+new Set([1, 1, 2, 2, 3, 4]); // returns Set(0) { 1,2,3,4 }
 
 // 2. Quick Questions #2 What does the following code return?
 [...new Set("referee")].join(""); // returns string 'ref'
